@@ -1,6 +1,7 @@
 import urllib.request
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
+import os
 
 seeds_file = 'EXA618/atividade5/seeds.txt'
 output_file = 'EXA618/atividade5/index.html'
@@ -41,6 +42,9 @@ try:
                     
                     if raw_src:
                         titulo = soup.title.string.strip() if soup.title else "Sem Título"
+                        
+                        # urljoin resolve caminhos relativos (../imagem.png ou /imagem.png)
+                        # baseando-se na URL de origem (seja ela http ou file://)
                         primeira_img_src = urljoin(url, raw_src)
                         
                         html_final += f"<div class='card'>"
