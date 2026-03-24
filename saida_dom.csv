@@ -1,0 +1,565 @@
+lat,lon,tipo,nome
+-15.7828119,-47.9085240,food_court,Feirinha do anexo do Buriti
+-15.7819909,-47.9081292,restaurant,ASTER
+-15.7941881,-47.8879372,parking,Correios
+-15.7884078,-47.8786105,police,5ª DP Polícia Civil SBN
+-15.7863197,-47.8894121,restaurant,Restaurante Coco Bambu
+-15.7941211,-47.8971488,police,PCS 99
+-15.7936645,-47.8986033,shower,Vestiário Masculino
+-15.7897976,-47.8859950,fuel,BR
+-15.7835696,-47.8776238,fast_food,Asai Bar
+-15.7798716,-47.8745687,atm,Banco24Horas
+-15.7772355,-47.8779534,restaurant,Supren Verda
+-15.7771510,-47.8790491,bar,Área 51
+-15.7767845,-47.8779668,restaurant,Molho de Tomate
+-15.7770509,-47.8777968,pharmacy,Drogaria Colorado
+-15.7768454,-47.8790691,bar,Bedrock
+-15.7901693,-47.8944044,bench,#Feira da Torre
+-15.7904117,-47.8945241,fast_food,Pastelaria do Caio
+-15.7864750,-47.8841441,cinema,CineCultura Liberty Mall
+-15.7943667,-47.8888887,fuel,Posto Imperial
+-15.7828200,-47.8842169,taxi,Ponto de táxi da SQN 302
+-15.7838723,-47.8776097,bank,Banco do Brasil
+-15.7977974,-47.8787827,bicycle_parking,Museu Nacional de Brasília
+-15.7892080,-47.8800115,fast_food,Banca do Bacana
+-15.7956283,-47.8973491,restaurant,Restaurante da Conab
+-15.8088644,-47.9009593,bar,Bar Brasília
+-15.7943438,-47.8924590,restaurant,Places
+-15.8062400,-47.8937699,restaurant,Restaurante China
+-15.8071717,-47.8926219,restaurant,Marvin American Burger
+-15.7994890,-47.8908390,hospital,Hospital SARAH
+-15.7728288,-47.8851136,fuel,BR
+-15.7746379,-47.8857165,restaurant,BSB Grill
+-15.7743881,-47.8868765,bar,305
+-15.7801628,-47.8755445,fast_food,Subway
+-15.7936079,-47.8984702,shower,Vestiário Feminino
+-15.7966049,-47.8919932,atm,Banco24Horas
+-15.7730225,-47.8756795,pharmacy,Drogaria Macedo
+-15.7733149,-47.8756713,pharmacy,Onofarma
+-15.7731202,-47.8764214,restaurant,Restaurante Pequim
+-15.7835165,-47.8787164,bar,Boteco Caju Limão
+-15.7838395,-47.8787120,restaurant,Don Durica
+-15.7998476,-47.9070091,clock,Relógio de Sol do Parque da Cidade
+-15.7968121,-47.8900604,stripclub,Star Night Boite
+-15.8095824,-47.8849959,bar,Adega Piantas
+-15.7869408,-47.8854860,restaurant,Universidade Conzinha de Bar
+-15.8085073,-47.8862835,restaurant,Nazo
+-15.8049066,-47.8846089,bar,Bar Brahma
+-15.7797989,-47.8750200,bar,Bar do Mané Rei das Codornas
+-15.7834752,-47.8785270,bar,Bar e Café do Brasil
+-15.7936470,-47.8931770,bar,Beer Selection
+-15.8095377,-47.8850579,bar,Beer Club
+-15.8071850,-47.8977780,bar,Choperia Lapa
+-15.8069800,-47.8929730,bar,La Bussola
+-15.7883227,-47.8788346,bar,La Ursa
+-15.7986091,-47.8868724,bar,Novo Museu
+-15.8028634,-47.8927610,restaurant,Quem Temperou
+-15.7798334,-47.8753981,bar,Só Drinks Bar dos Botafoguenses
+-15.7832206,-47.8827318,nightclub,Velvet Pub
+-15.7838810,-47.9084470,bank,Banco de Brasília
+-15.7907609,-47.8830925,bank,Banco do Brasil
+-15.7917450,-47.8834340,bank,Caixa Econômica Federal
+-15.7888290,-47.8909980,restaurant,L Affaire
+-15.7937810,-47.8910870,restaurant,The Continental Restaurant
+-15.7988276,-47.8953482,school,Centro Educacional Maria Auxiliadora
+-15.8063065,-47.9097482,school,Centro Interescolar de Educação Física - CIEF
+-15.7749340,-47.8836925,school,Centro de Ensino Fundamental 104 Norte
+-15.8055468,-47.8916085,school,Centro de Ensino Fundamental 3
+-15.8050732,-47.9020421,college,Colégio Batista
+-15.7994316,-47.8942905,school,Colégio Dom Bosco
+-15.8106251,-47.9107200,language_school,Cultura Inglesa
+-15.8054734,-47.9045441,school,Escola Canarinho
+-15.7763018,-47.8862384,school,Escola Classe 304 Norte
+-15.8062212,-47.9067235,school,Escola Nossa Senhora de Fátima
+-15.7850062,-47.8867342,college,Fundação de Ensino e Pesquisa em Ciências da Saúde
+-15.8044872,-47.9047197,school,Seminário Presbiteriano de Brasília
+-15.8022407,-47.9004287,school,UNIDF
+-15.7732725,-47.8668075,school,UnB - CTIC - Centro Tecnológico da Informática e Construção
+-15.7734117,-47.8669524,school,UnB - NTI - Núcleo de Tecnologia da Informação
+-15.7797730,-47.8751970,restaurant,Algos Pizza e Bar
+-15.7838263,-47.8783760,restaurant,Alo Mamma
+-15.8033730,-47.8921460,restaurant,Cantina da Massa
+-15.7949180,-47.8894430,restaurant,Chamas Grill
+-15.8068370,-47.8931320,restaurant,Dom Bosco
+-15.8086624,-47.8856930,restaurant,Dom Francisco
+-15.8035714,-47.8922993,restaurant,Dudu Camargo
+-15.7894950,-47.8868770,restaurant,Churrascarias Sal e Brasa
+-15.8071159,-47.8927959,restaurant,Fratello Uno
+-15.8010917,-47.8908838,restaurant,Grande Muralha
+-15.8017601,-47.8899423,restaurant,La Gioconda
+-15.8090163,-47.8852816,restaurant,Lakes Restaurante
+-15.8085672,-47.8862155,restaurant,Spot Burguers
+-15.7766894,-47.8788941,restaurant,Pacifico
+-15.7798366,-47.8757577,restaurant,Self-service Calamares
+-15.8100767,-47.8895818,restaurant,Sumo
+-15.8043760,-47.8854360,restaurant,O Contemporâneo
+-15.7785239,-47.8771751,fuel,BR
+-15.7880767,-47.8916196,fuel,BR
+-15.7829030,-47.9048580,courthouse,Protocolo Expresso- Drive Thru
+-15.8050652,-47.8808025,theatre,Centro Cultural Leandro Lins e Silva
+-15.8008979,-47.8820866,bar,Outro Calaf
+-15.7952818,-47.9011477,bar,Barulho
+-15.7963233,-47.8849170,nightclub,Galleria
+-15.8038725,-47.8792919,restaurant,Quiosque da Vilani
+-15.8087981,-47.8855436,fast_food,B de Burger
+-15.8092485,-47.8854176,restaurant,Naturetto Família
+-15.7905249,-47.8865549,atm,Banco do Brasil
+-15.7785767,-47.8874761,fast_food,Bob's
+-15.7754029,-47.8907837,restaurant,Alibaba
+-15.7771919,-47.8837965,pharmacy,Drogasil
+-15.7771246,-47.8828582,restaurant,Estrela do Sul
+-15.8093425,-47.8848773,pharmacy,Drogarias Pacheco
+-15.8092394,-47.8850174,restaurant,L'Entrecôte de Paris
+-15.8023285,-47.8933880,restaurant,Brasil Vexado
+-15.7869674,-47.8863701,cafe,Cafezinho Express
+-15.7742082,-47.8886189,place_of_worship,Shopping Ave Maria
+-15.7755847,-47.8884156,language_school,CCAA
+-15.7770943,-47.8783130,cafe,Candy House
+-15.7808270,-47.8899709,college,ITAC - Instituto Técnico de Aviação Civil
+-15.7936989,-47.8837680,bicycle_parking,Metrô - Estação Central
+-15.7951284,-47.8951954,bicycle_rental,Parque da Cidade SRTVS - Estação 18
+-15.7870149,-47.8879309,bicycle_rental,Brasília Shopping - Estação 34
+-15.7973914,-47.8914767,bicycle_rental,Shopping Pátio Brasil - Estação 20
+-15.7788797,-47.8875124,fuel,Shell
+-15.7985695,-47.8867652,fast_food,Subway
+-15.7749509,-47.8908733,cafe,Café Cobogó
+-15.7982984,-47.8870928,pharmacy,Farmácia do Trabalhador
+-15.7983954,-47.8871106,pharmacy,Drogaria Rosário
+-15.7993153,-47.8874035,bank,Bradesco
+-15.7767484,-47.8877356,bank,Banco do Brasil
+-15.7773395,-47.8876766,bank,Santander
+-15.7772621,-47.8876820,bank,Bradesco
+-15.7771640,-47.8876954,bank,Banco de Brasília
+-15.7770220,-47.8877115,bank,Itaú
+-15.7772176,-47.8790491,school,Wizard
+-15.8050994,-47.8847788,restaurant,Dona Lenha
+-15.7834693,-47.8774214,restaurant,Terra Viva
+-15.7838359,-47.8785827,restaurant,Koni
+-15.7813571,-47.8873734,bank,Santander
+-15.7803384,-47.8845945,restaurant,Paladar
+-15.7808421,-47.8850214,restaurant,Greens
+-15.7806286,-47.8860998,cafe,Caramella
+-15.7805371,-47.8847823,cafe,Martinica Café
+-15.7798379,-47.8755113,pharmacy,Drogaria Renata
+-15.7801718,-47.8749840,restaurant,Forninho Mineiro
+-15.7770016,-47.8827129,cafe,Daniel Briand
+-15.8059240,-47.8936639,bicycle_rental,CLS 103 W1 Sul
+-15.8098070,-47.8898882,restaurant,Veredas Grill
+-15.8101972,-47.8890617,bank,Banco do Brasil
+-15.8032643,-47.8851040,bank,Banco do Brasil
+-15.8090973,-47.8851814,restaurant,China Dìfang
+-15.8089156,-47.8854132,restaurant,Palace Long Fu
+-15.7810002,-47.8881106,dojo,Krav Maga
+-15.7746067,-47.8855438,fast_food,Subway
+-15.7742532,-47.8856120,school,Wise Explorer
+-15.7833159,-47.8785943,cafe,Café Cristina Colina da Pedra
+-15.7809318,-47.8858493,pub,Chão de estrelas
+-15.7806248,-47.8857908,fast_food,O Carioca
+-15.7805472,-47.8860928,restaurant,A melhor do mundo pizzaria
+-15.7806479,-47.8862752,pharmacy,Drogasil
+-15.7808672,-47.8851481,pharmacy,Volta à Natureza
+-15.7809254,-47.8857156,restaurant,Picanhas do Sul
+-15.7809705,-47.8862323,cafe,Café com Café
+-15.7804781,-47.8861235,fast_food,Açaí Floresta
+-15.7810485,-47.8862365,fast_food,Giraffas
+-15.8105483,-47.8890189,bicycle_rental,CLS 204
+-15.7958067,-47.8916994,atm,Banco do Brasil
+-15.8072612,-47.8995678,bank,Caixa Econômica Federal
+-15.8026102,-47.8952522,bank,Banco Santander
+-15.8047541,-47.8971716,bank,Bradesco
+-15.7863043,-47.8873611,bank,Citibank
+-15.7819647,-47.8873288,bank,Bradesco
+-15.7864699,-47.8869585,bank,Bradesco
+-15.7752949,-47.8901182,restaurant,Pastelaria Viçosa
+-15.7753158,-47.8903196,post_office,Correios
+-15.7753390,-47.8905235,restaurant,Esquina Mineira
+-15.7838326,-47.8779768,fast_food,Burger King
+-15.7838410,-47.8778107,restaurant,Hajimê
+-15.8041871,-47.8856880,restaurant,Veloce
+-15.8042542,-47.8855887,bank,Santander
+-15.8044555,-47.8853058,restaurant,Buteco da Boa
+-15.8044722,-47.8852709,cafe,Rappot
+-15.8044955,-47.8852293,restaurant,Cozinha do Sabor Gourmet
+-15.8045200,-47.8851878,cafe,Café do Ponto
+-15.8045432,-47.8851489,restaurant,Severina
+-15.8045716,-47.8851019,restaurant,Sabor Glacé
+-15.8046232,-47.8850174,restaurant,Sushi Loko
+-15.8047626,-47.8848230,restaurant,Ticiana Wener
+-15.8048503,-47.8846875,cafe,Cristina Cafés
+-15.8044122,-47.8857638,restaurant,Balada Mix
+-15.8045368,-47.8855928,restaurant,Naturama Gourmet
+-15.8047789,-47.8852247,restaurant,Mercadito
+-15.8048199,-47.8851651,restaurant,Le Grand
+-15.8048894,-47.8850712,restaurant,Green's Restaurante Natural
+-15.8049232,-47.8850053,restaurant,Fogo de Lenha
+-15.8037437,-47.8842680,atm,Caixa Econômica Federal
+-15.8095069,-47.8850985,bar,Vegas
+-15.8084115,-47.8860116,restaurant,Taikan
+-15.8094380,-47.8851824,restaurant,Contê
+-15.8087453,-47.8856119,restaurant,l'a pacific food
+-15.8086017,-47.8857873,restaurant,Piauí
+-15.7768131,-47.8783276,pharmacy,Drogasil
+-15.7770538,-47.8778492,fast_food,Senhora Empada
+-15.7766523,-47.8790789,restaurant,Les Maries
+-15.7729922,-47.8766175,restaurant,Naturetto
+-15.7756008,-47.8734623,restaurant,Dom Neres
+-15.7835761,-47.8774185,restaurant,Tempero Mineiro
+-15.7839122,-47.8777864,restaurant,Barão
+-15.7831796,-47.8832286,restaurant,Moreno's Restaurante
+-15.7831717,-47.8834145,cafe,Rosa's Café
+-15.7831653,-47.8835046,restaurant,Pizzas do Rei
+-15.7810692,-47.8856888,restaurant,Bom de Minas
+-15.7811291,-47.8861396,restaurant,Melhor pizza do pedaço
+-15.7806989,-47.8881207,school,Professor Filemon
+-15.8095986,-47.8901962,bar,Versão Brasileira
+-15.7877785,-47.8825380,bank,Bradesco
+-15.7802532,-47.8879890,driving_school,Teka Auto Escola
+-15.7798086,-47.8880099,veterinary,Prontovet
+-15.7962275,-47.8901410,college,SENAC - Jessé Freire
+-15.7986605,-47.8829039,fast_food,Subway
+-15.7986386,-47.8830022,fast_food,Spoleto
+-15.7988630,-47.8828714,restaurant,Mistura Fina
+-15.7984411,-47.8829733,restaurant,Bliss
+-15.8012388,-47.8837031,fast_food,Giraffas
+-15.7995262,-47.8827678,bank,Banco do Brasil
+-15.7976758,-47.8830171,bank,Banco de Brasília
+-15.7988508,-47.8829258,restaurant,Vintage Gourmet
+-15.7988301,-47.8829945,restaurant,Panelinhas do Brasil
+-15.7984109,-47.8830813,restaurant,Kálice
+-15.7985033,-47.8827441,restaurant,Baú Mineiro
+-15.7985989,-47.8831360,restaurant,Capital Grill
+-15.7771622,-47.8832623,fast_food,Frango no Pote
+-15.7844891,-47.8880489,restaurant,Boa Saúde
+-15.7836964,-47.8882823,restaurant,Careca
+-15.7877449,-47.8826614,cafe,Art Café
+-15.7870974,-47.8829126,language_school,Universa Idiomas
+-15.7871193,-47.8828056,cafe,Tomilla Café
+-15.7877036,-47.8827338,restaurant,Grã-finos
+-15.7872233,-47.8827237,language_school,Wizard
+-15.7831873,-47.8824050,restaurant,Flor de Lótus
+-15.7873255,-47.8828911,cafe,Especiarias de Minas
+-15.7839330,-47.8848583,cafe,Fran's Café
+-15.7812333,-47.8881001,cafe,Cópia com Café
+-15.7884793,-47.8827789,bank,Banco de Brasília
+-15.7871242,-47.8841844,bank,Banco do Brasil
+-15.8016049,-47.8823199,restaurant,Steak Grill
+-15.7879296,-47.8915954,fast_food,Subway
+-15.7767614,-47.8777108,bicycle_rental,CLN 204 L1 Norte
+-15.8006335,-47.8941759,bicycle_rental,Santuário Dom Bosco
+-15.8078945,-47.9008841,bicycle_rental,SQS 306 W3 Sul
+-15.7982716,-47.8865444,pharmacy,Pacheco
+-15.7988954,-47.8863635,restaurant,Cozinha e Café Brasil
+-15.7986194,-47.8862933,bank,Banco Santander
+-15.7971762,-47.8861225,restaurant,Alecrim
+-15.7736441,-47.8767018,restaurant,Fulô do Sertão
+-15.7729310,-47.8764393,ice_cream,Sorbê
+-15.7736120,-47.8765470,cafe,Los Baristas
+-15.7903318,-47.8847290,car_rental,Unidas
+-15.7901370,-47.8849886,cafe,Chateau Brasil
+-15.7901856,-47.8846900,restaurant,Tribally
+-15.7890382,-47.8830933,car_rental,Localiza
+-15.7907387,-47.8832682,restaurant,Brasil Vexado
+-15.8013393,-47.8905166,restaurant,Sabor Brasil
+-15.8012640,-47.8906446,pharmacy,Santa Marta
+-15.7890404,-47.8832009,post_office,Correios
+-15.7880104,-47.8892797,restaurant,Fatti a Mano
+-15.7938924,-47.8833983,atm,Banco24Horas
+-15.7769559,-47.8832890,fast_food,X Nonô
+-15.7769432,-47.8831345,bar,Vila Esperança
+-15.7748968,-47.8878773,atm,Banco24Horas
+-15.7749408,-47.8878740,atm,Banco de Brasília
+-15.7770128,-47.8837915,restaurant,Confraria Chico Mineiro
+-15.7774947,-47.8839409,restaurant,Berimbau Brasil
+-15.7769742,-47.8834380,arts_centre,Oficina de Arte
+-15.7770087,-47.8840073,cafe,Chico Mineiro Confeitaria e Café
+-15.7755113,-47.8886254,car_rental,Quasar Rent a Car
+-15.7871769,-47.8895397,restaurant,Mercado 153
+-15.7863988,-47.8898730,fast_food,Mônica Lanches
+-15.7832021,-47.8827588,arts_centre,Cursos de Artes
+-15.7882205,-47.8824733,fast_food,Fruta é Saúde
+-15.7875936,-47.8824956,theatre,IEL Estágio
+-15.7852225,-47.8848246,clinic,Laboratório Pasteur
+-15.7855058,-47.8831323,food_court,Lanchonete Pimenta de Cheiro
+-15.7810153,-47.8846428,school,Magister
+-15.7805415,-47.8847381,fast_food,Nutrifresh
+-15.7858449,-47.8821804,fast_food,Quiosque da Rosa
+-15.7858183,-47.8824259,toilets,Sanitário Público
+-15.7884050,-47.8824799,taxi,Sinpetaxi
+-15.7889015,-47.8824042,fast_food,Tapiocaria do Serrado
+-15.7746238,-47.8856309,cafe,Café Sarah Kubitscheck
+-15.7746892,-47.8863617,pharmacy,Drogaria Maia
+-15.7743173,-47.8855726,fast_food,Fast Açaí
+-15.7743365,-47.8857909,prep_school,Kumon
+-15.7743051,-47.8868762,fast_food,Lanchonete 305 Norte
+-15.7749916,-47.8872002,taxi,Ponto de Taxi
+-15.7882958,-47.8834546,fast_food,Lanches
+-15.8036991,-47.8680817,bank,Banco do Brasil
+-15.8089987,-47.9015432,fast_food,Vitamina Central
+-15.8097643,-47.9078076,cafe,Le Jardin
+-15.7765875,-47.8777892,restaurant,Pimenta de Cheiro
+-15.7735165,-47.8767302,pub,Bar do Zezé
+-15.7735297,-47.8758263,pub,Bar do Alfredo
+-15.7731319,-47.8764826,veterinary,Pet Gree
+-15.8010115,-47.8680941,bank,Banco do Brasil
+-15.8010605,-47.8679519,bank,Caixa Econômica Federal
+-15.8012308,-47.8678259,post_office,Correios
+-15.8098559,-47.9024041,bank,Itaú
+-15.7763398,-47.8883207,school,Cultura Inglesa
+-15.8075346,-47.8974890,restaurant,Zimbrus
+-15.8080742,-47.8964601,pharmacy,Drogaria Pacheco
+-15.7865650,-47.8888328,cafe,Fran's Café
+-15.7866114,-47.8890018,cafe,Martinica
+-15.7867043,-47.8891654,fast_food,McDonald's
+-15.7862991,-47.8893236,bank,Caixa Econômica Federal
+-15.7864359,-47.8889830,fast_food,Marvin America Burger
+-15.7862965,-47.8889669,fast_food,Subway
+-15.7864720,-47.8890474,fast_food,Giraffas
+-15.7864772,-47.8891252,restaurant,Koni Store
+-15.7868850,-47.8893961,bank,Banco do Brasil
+-15.7869134,-47.8891037,pharmacy,Drogasil
+-15.7862278,-47.8891941,theatre,Teatro Brasília Shopping
+-15.7872127,-47.8841286,restaurant,Grande Muralha
+-15.7871869,-47.8840682,cafe,Grande Café
+-15.7865237,-47.8844880,pharmacy,DrogaFuji
+-15.7866610,-47.8839318,bureau_de_change,Capital Câmbio
+-15.7869651,-47.8839757,bank,Santander
+-15.7866075,-47.8839568,restaurant,Panelinhas do Brasil
+-15.7871315,-47.8843752,fast_food,Subway
+-15.7871752,-47.8888573,bureau_de_change,Confidence Câmbio
+-15.7781911,-47.8885969,restaurant,Restaurante Talher de Minas
+-15.7868298,-47.8846300,cafe,Crépe de Paris
+-15.7871512,-47.8843061,fast_food,Giraffas
+-15.7796175,-47.8752157,restaurant,Cantucci Bistrô
+-15.8033904,-47.8740694,restaurant,Restaurante Consulado
+-15.7768953,-47.8885421,school,Wise Up
+-15.7898658,-47.8803227,fast_food,Entre Eixos
+-15.7944517,-47.8933922,bank,Citibank
+-15.7949085,-47.8925869,restaurant,Jamie Oliver
+-15.7948771,-47.8924151,restaurant,Outback
+-15.7951046,-47.8927596,fast_food,Subway
+-15.7951841,-47.8927181,restaurant,Panelinhas do Brasil
+-15.7948565,-47.8935168,bank,Banco do Brasil
+-15.7748249,-47.8806913,fast_food,Páprica Burger
+-15.7801098,-47.8750921,fast_food,Açaí Artesanal
+-15.7868687,-47.8887784,atm,Banco24Horas
+-15.7871965,-47.8885906,restaurant,Mormaii Surf Bar
+-15.7892587,-47.8833161,bank,China Construction Bank
+-15.7873284,-47.8902516,restaurant,Madero
+-15.7804654,-47.8862943,pub,Sultan
+-15.7780775,-47.8884546,restaurant,Bengala
+-15.7906235,-47.8831845,cafe,Gaudi Café
+-15.7906519,-47.8832033,restaurant,Sushi Loko
+-15.7785951,-47.8881019,restaurant,Alexandre's
+-15.7866675,-47.8840023,atm,Banco de Brasília
+-15.7867140,-47.8839908,atm,Banco24Horas
+-15.7871046,-47.8844814,restaurant,Aroma Restaurante
+-15.7868709,-47.8845790,fast_food,Empada Brasil
+-15.7869974,-47.8846957,coworking_space,Open Office
+-15.8096224,-47.8897542,fast_food,Domino's
+-15.8100977,-47.8895461,restaurant,Salad Bowl
+-15.8007699,-47.8913921,fast_food,Açaí Artesanal
+-15.7747066,-47.8887807,school,ALUB
+-15.8087024,-47.8856670,fast_food,The Black Beef
+-15.7808340,-47.8891390,cafe,Oficina Café
+-15.7808978,-47.8850811,school,Cultura Italiana
+-15.8088076,-47.9009976,school,Uptime
+-15.8090084,-47.9015842,language_school,CCAA
+-15.8106640,-47.9034878,school,Yes
+-15.7904799,-47.8942162,fast_food,Acarajé da Mainha
+-15.7879188,-47.8915452,fast_food,Spoleto
+-15.8042263,-47.8856256,restaurant,Yakisoba Factory
+-15.7742663,-47.8888380,restaurant,MINAS BRASIL RESTAURANTE
+-15.7870876,-47.8904301,fast_food,Mr. Fit
+-15.7810471,-47.8902963,school,SuperGeeks
+-15.7973871,-47.8879447,arts_centre,Espaço Cultural Canteiro Central
+-15.7962238,-47.8927946,cafe,Café Civitá
+-15.7953783,-47.8924834,cafe,Fran's Café
+-15.7962754,-47.8928412,atm,Banco24Horas
+-15.7961393,-47.8931726,bank,Banco de Brasília
+-15.7930602,-47.8925020,fast_food,In Brasília Kebab
+-15.7767563,-47.8788905,restaurant,Vegan-se
+-15.8011745,-47.8837542,coworking_space,BR Offices
+-15.7730970,-47.8773850,restaurant,Ki Filé
+-15.7734486,-47.8758385,pub,Bar Tropical
+-15.7730329,-47.8757742,pub,Bar Querubim
+-15.7728498,-47.8757007,pharmacy,Pharmakon
+-15.7735408,-47.8759787,restaurant,Belas
+-15.7776368,-47.8832105,restaurant,Le Parisien Bistrot
+-15.7751531,-47.8891120,kindergarten,Me põe na história
+-15.7746794,-47.8862760,pharmacy,Fórmula Animal
+-15.7747795,-47.8862906,clinic,Espaço Saúde
+-15.7742155,-47.8865059,restaurant,Caffé con Latte
+-15.7744371,-47.8868611,fast_food,Calangos Açaí
+-15.7745731,-47.8852238,community_centre,Happy Birthday Festas
+-15.8070580,-47.8928596,fast_food,Club Life to Go
+-15.8031685,-47.8923872,fast_food,Torteria di Lorenza
+-15.8034257,-47.8924533,restaurant,Moagem cozinha bar
+-15.8034794,-47.8924100,pharmacy,Vitabel
+-15.8035110,-47.8923785,restaurant,Maxsushi
+-15.8028571,-47.8931537,fast_food,Subway
+-15.8028809,-47.8931241,cafe,Nosso Quadrado
+-15.8025016,-47.8931878,fast_food,Açaí Artesanal
+-15.8026971,-47.8933846,language_school,Wizard
+-15.8027131,-47.8933387,pharmacy,Vitale
+-15.8103402,-47.9100841,cafe,Fran's Café
+-15.7973083,-47.8973490,school,Colégio Seriös
+-15.8014039,-47.8699871,doctors,SIASS-DF
+-15.8005056,-47.8800541,fast_food,Waldir
+-15.8008602,-47.8788883,fast_food,Dona Lídia
+-15.7865444,-47.8900900,restaurant,Mangai
+-15.7872476,-47.8863101,restaurant,Sublime Tempero
+-15.8086795,-47.8860752,restaurant,Nippon Restaurante
+-15.8093192,-47.8853000,pharmacy,Drogasil
+-15.7963613,-47.8906442,bank,Caixa Econômica Federal
+-15.7974471,-47.8910080,bank,Banco Safra
+-15.8021713,-47.8944377,dojo,Gracie Barra
+-15.8049163,-47.8973696,bank,Caixa Econômica Federal
+-15.7964574,-47.8906733,bank,Sicoob
+-15.8054481,-47.8978402,bank,Itaú
+-15.7962776,-47.8906072,driving_school,Autoescola Líder
+-15.8078377,-47.9002490,fast_food,Bônus Fast Food
+-15.8010278,-47.8821065,restaurant,Donburi
+-15.7869401,-47.8886507,fast_food,Açaí Artesanal
+-15.7902403,-47.8846678,cafe,Melbourne Café & Co.
+-15.8096261,-47.8844975,atm,Banco24Horas
+-15.7989310,-47.8971883,university,Universidade Corporativa Banco do Brasil
+-15.7843560,-47.8848819,pharmacy,Guiafarma
+-15.7801077,-47.8751995,restaurant,Reiko Sushi
+-15.7801350,-47.8754221,pharmacy,Drogarias Pacheco
+-15.7798627,-47.8761607,pharmacy,Colorado
+-15.7770664,-47.8778919,marketplace,Mais vida
+-15.7797723,-47.8759484,restaurant,Nutri Vida
+-15.7879510,-47.8833838,restaurant,Caparriz
+-15.7797746,-47.8761658,bar,Tiborna
+-15.7884221,-47.8843495,bank,Caixa Econômica Federal
+-15.7869960,-47.8894185,bank,Itaú
+-15.7802082,-47.8766556,restaurant,Chaminé
+-15.7775553,-47.8826493,cafe,Quanto
+-15.7872059,-47.8876797,fast_food,DNL Lanches
+-15.7977256,-47.8937606,restaurant,Sabor do Milênio
+-15.7730107,-47.8762701,bar,Barito
+-15.7743679,-47.8861096,coworking_space,Copa
+-15.7727279,-47.8851262,car_wash,Restaura Car
+-15.7742631,-47.8860930,coworking_space,Copa
+-15.7743386,-47.8857745,marketplace,Casa do Holandês
+-15.8090597,-47.8852308,fast_food,Molho de Tomate
+-15.8094576,-47.8851452,cafe,Café Grão Nativo
+-15.7730598,-47.8711877,restaurant,Restaurante da FINATEC
+-15.7803584,-47.8762734,language_school,Professor Prime
+-15.7953109,-47.8841452,restaurant,Ric Filet
+-15.7844389,-47.8886042,restaurant,Quinzinhos
+-15.7839762,-47.8885522,restaurant,Abrantes
+-15.7766022,-47.8781783,fast_food,Tuira Açaí
+-15.7956258,-47.8843436,theatre,Dulcina de Moraes
+-15.7840757,-47.8879309,atm,Banco24Horas
+-15.7989668,-47.8869161,fast_food,Sabor do Café
+-15.7982207,-47.8867356,fast_food,Cafeteria Metrô
+-15.7981779,-47.8870121,restaurant,Melhor Fatia
+-15.7989957,-47.8867997,restaurant,ABL self service
+-15.7990775,-47.8867031,fast_food,Benvinda Frutas
+-15.7946129,-47.8846564,restaurant,Villa's
+-15.7950054,-47.8847448,pharmacy,Farmacentro Manipulação
+-15.7801792,-47.8762076,pharmacy,Nova América
+-15.7801325,-47.8757912,pharmacy,Medicare
+-15.7801260,-47.8757288,fast_food,Subway
+-15.7797119,-47.8763264,restaurant,Restaurante Escondidinho
+-15.8043941,-47.8858172,bar,Bar Responsa
+-15.7936147,-47.8890659,fast_food,Páprica Burger
+-15.7803423,-47.8759175,restaurant,Menu Restô
+-15.7803331,-47.8758513,restaurant,Pizza Swap
+-15.7803307,-47.8757382,restaurant,Nossa Cozinha
+-15.8035367,-47.9016975,place_of_worship,Igreja Santa Edwiges
+-15.7808206,-47.8900077,cafe,Sterna Café
+-15.7833619,-47.8836298,restaurant,iviva bowls
+-15.8096223,-47.9075320,language_school,Aliança Francesa
+-15.7933591,-47.8825794,bus_station,Rodoviria do Plano Piloto
+-15.7932743,-47.8826236,bus_station,Rodoviaria do Plano Piloto
+-15.8001193,-47.9005250,arts_centre,Espaco Brasilia Eventos
+-15.8021056,-47.8948279,marketplace,Leal
+-15.8020658,-47.8947785,school,Laboro
+-15.7729372,-47.8913571,school,Ashram casa Jasmin
+-15.8083007,-47.8966619,ice_cream,Piu Bella
+-15.7892428,-47.8881951,fast_food,Churrasquinho do Galego
+-15.7907299,-47.8858233,restaurant,Cantina Mineira
+-15.7935494,-47.8981275,fast_food,LaranjalBrasil
+-15.7931048,-47.8971168,dojo,Roda de Capoeira
+-15.7975328,-47.8875443,restaurant,Brasileirinho
+-15.7972504,-47.8874511,bank,Banco do Brasil
+-15.7740246,-47.8922914,place_of_worship,Casa Luz de Yorimá de Umbanda iniciática
+-15.7905723,-47.8944451,fast_food,Acarajé Da Anna
+-15.7905032,-47.8943813,fast_food,Acarajé da Rosa
+-15.7868494,-47.8827919,hospital,Proceram Instituto de Odontologia
+-15.7798113,-47.8755818,restaurant,Caminito Parrilla Asa Norte
+-15.8091405,-47.9014530,restaurant,Alfredo's
+-15.8091433,-47.9015729,bicycle_parking,Loca
+-15.8091123,-47.9014763,arts_centre,Infinu
+-15.7833170,-47.8836400,marketplace,Tsuru Oriental
+-15.8015199,-47.8967860,cafe,Rafaela Brandão Doceria;Senhorita Brigadeiro
+-15.7728741,-47.8760889,cafe,Maytrea Café do Cerrado
+-15.8084858,-47.8858439,restaurant,Verona
+-15.7730935,-47.8761738,cafe,The Coffee
+-15.8106906,-47.8982309,language_school,Wise Up
+-15.8066215,-47.8937631,restaurant,Toro
+-15.8064470,-47.8936064,restaurant,The Plant
+-15.8066808,-47.8933134,restaurant,The Healthy
+-15.8066905,-47.8936810,cafe,DuckBill Cookies & Coffee
+-15.8069382,-47.8933825,cafe,Café da Mata
+-15.7950461,-47.8924062,cafe,Starbucks
+-15.7909700,-47.8829693,cafe,Starbucks
+-15.7861156,-47.9005876,bicycle_rental,Centro de Convenções - Estação 3
+-15.7929801,-47.8830289,bicycle_rental,Rodoviária Superior - Estação 8
+-15.7867135,-47.8888292,doctors,Derma Star
+-15.7758809,-47.8876505,bar,Gato Preto
+-15.7735609,-47.8769352,restaurant,Superquadra Bar
+-15.7925882,-47.8841068,bicycle_rental,Rodoviária Oeste - Estação 6
+-15.7910545,-47.8868578,bicycle_rental,Setor Hoteleiro Norte - Estação 5
+-15.7936161,-47.8814520,bicycle_rental,Rodoviária Leste - Estação 7
+-15.7880741,-47.8947803,bicycle_rental,Torre de TV - Estação 4
+-15.7911428,-47.8979008,bicycle_rental,Funarte - Estação 17
+-15.7863793,-47.9100811,bicycle_rental,Praça CLDF - Estação 2
+-15.7884058,-47.8792192,dentist,CINN Odontologia
+-15.8055859,-47.8900608,bicycle_rental,Metrô 102 Sul - Estação 22
+-15.7951365,-47.8923980,internet_cafe,eduroam - Starbucks Venâncio Shopping
+-15.7939282,-47.8819956,fast_food,Pastelaria Viçosa
+-15.7940870,-47.8820607,fast_food,Subway
+-15.7796643,-47.8874633,car_rental,Localiza
+-15.7976724,-47.8940864,studio,SBT Brasília
+-15.7772888,-47.8783154,bar,Origen Bar
+-15.7831624,-47.8721072,fast_food,oi
+-15.7932894,-47.8985722,fire_station,Bombeiros
+-15.7986160,-47.8829894,food_court,Edifício Financial Center Park
+-15.7877873,-47.8867908,police,Polícia Federal - Sede
+-15.7910086,-47.8832190,dentist,Moov Alinhadores
+-15.7906247,-47.9043804,school,Escola da Natureza
+-15.7812477,-47.8900207,restaurant,Varanda do Sul - Asa Norte
+-15.8060689,-47.8890215,pharmacy,Farmácia de Altos Custos - GDF
+-15.7873805,-47.8827139,doctors,Centro de psiquiatria e psicologia Van Gogh
+-15.8033817,-47.8858539,bar,MegaFireBlaze
+-15.7906523,-47.8830027,restaurant,Outback Steakhouse
+-15.7865822,-47.8891558,restaurant,Mania de Churrasco
+-15.7939096,-47.8893991,fast_food,Espetinho do Raimundo's Grill
+-15.7969418,-47.8942934,dentist,Digident Consultorio Odontologico
+-15.8063056,-47.8815257,fast_food,Victor Hugo Lanches
+-15.8062859,-47.8841281,restaurant,Cantinho Caseiro
+-15.8049681,-47.8849469,restaurant,Brazilian China Restaurante
+-15.8037334,-47.8958182,music_school,MiFáSol-Lá - Escola de Música para Bebês e Crianças
+-15.7866721,-47.8874609,veterinary,Veterinário em Casa
+-15.7833820,-47.8829070,dentist,Clínica Sorrir Odontologia
+-15.7834283,-47.8823222,restaurant,Pizza Crek Brasília
+-15.7833511,-47.8824351,dentist,Perio Vita Odontologia
+-15.7832118,-47.8825373,restaurant,Shakkai Sushi
+-15.7804970,-47.8819947,prep_school,IMP Concursos - Asa Norte
+-15.7805459,-47.8820571,events_venue,N Produções
+-15.7806622,-47.8820897,language_school,BRASAS English Course - Asa Norte
+-15.7846595,-47.8849902,doctors,Galli
+-15.7803504,-47.8761495,restaurant,Namastê Indian
+-15.7806590,-47.8823936,restaurant,Patinho Feio Bar
+-15.7938953,-47.9105402,events_venue,Oscarito Brasília
+-15.8051677,-47.8902954,restaurant,Capital Pizzaria Express
+-15.8091896,-47.9014072,restaurant,Yakiton
+-15.8091722,-47.9014241,bar,Biricutico
+-15.7955375,-47.8892740,restaurant,Ssam Korean Steakhouse
+-15.7792467,-47.8890051,arts_centre,Casa da Cultura Brasília
+-15.8069109,-47.8988275,restaurant,Restaurante Tempero De Casa
+-15.8048696,-47.9015944,cafe,Mais1 Café
+-15.8091572,-47.9014382,fast_food,Las Chicas
