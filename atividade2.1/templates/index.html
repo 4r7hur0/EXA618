@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mini Blog (Flask + CSV)</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; line-height: 1.4; }
+      .container { max-width: 880px; margin: 0 auto; }
+      .card { border: 1px solid rgba(127,127,127,.35); border-radius: 12px; padding: 16px; margin: 14px 0; }
+      label { display: block; font-weight: 600; margin-top: 10px; }
+      input, textarea, button { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid rgba(127,127,127,.45); background: transparent; }
+      textarea { min-height: 110px; resize: vertical; }
+      button { cursor: pointer; font-weight: 700; }
+      .row { display: grid; grid-template-columns: 1fr; gap: 12px; }
+      .error { color: #b00020; font-weight: 700; }
+      .meta { opacity: .8; font-size: .92rem; }
+      .postMessage { white-space: pre-wrap; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Mini Blog</h1>
+      <p class="meta">Flask + arquivo CSV (autor, mensagem, data).</p>
+
+      <div class="card">
+        <h2>Enviar mensagem</h2>
+
+        {% if error %}
+          <p class="error">{{ error }}</p>
+        {% endif %}
+
+        <form method="post" action="/">
+          <div class="row">
+            <div>
+              <label for="author">Autor</label>
+              <input id="author" name="author" maxlength="60" required value="{{ form.author }}" />
+            </div>
+            <div>
+              <label for="message">Mensagem</label>
+              <textarea id="message" name="message" maxlength="1000" required>{{ form.message }}</textarea>
+            </div>
+            <div>
+              <button type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Mensagens</h2>
+        {% if posts|length == 0 %}
+          <p class="meta">Nenhuma mensagem ainda. Envie a primeira acima.</p>
+        {% else %}
+          {% for p in posts %}
+            <div class="card">
+              <div class="meta"><strong>{{ p.author }}</strong> • {{ p.created_at }}</div>
+              <div class="postMessage">{{ p.message }}</div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
+

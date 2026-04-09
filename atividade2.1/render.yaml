@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: atividade2-1-mini-blog
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+
+# IMPORTANTE:
+# - Em web services Free no Render, o filesystem pode ser efêmero (o CSV pode sumir em redeploy/restart).
+# - Se precisar que o CSV persista, crie um Persistent Disk e aponte o arquivo para o mount path
+#   (ex.: /var/data). Nesse caso, ajuste o app para usar esse caminho.
+
