@@ -7,7 +7,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import List
 
-from flask import Flask, redirect, render_template, request
+from flask import Flask, jsonify, redirect, render_template, request
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 
@@ -86,13 +86,15 @@ def _read_posts() -> List[Post]:
     return posts
 
 
-def _append_post(author: str, message: str) -> None:
+def _append_post(author: str, message: str) -> str:
     _ensure_storage_exists()
     created_at = datetime.now().isoformat(timespec="seconds")
 
     with _csv_path().open("a", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["author", "message", "created_at"])
         writer.writerow({"author": author, "message": message, "created_at": created_at})
+
+    return created_at
 
 
 def _clean_author(value: str) -> str:
@@ -154,6 +156,55 @@ def index_post():
     _append_post(author, message)
     # Evita url_for em serverless (SCRIPT_NAME / rotas reescritas podem quebrar o redirect).
     return redirect("/", code=303)
+
+
+@app.get("/api/messages")
+def api_messages_get():
+    posts = _read_posts()
+    return jsonify(
+        {
+            "messages": [
+                {"author": p.author, "message": p.message, "created_at": p.created_at}
+                for p in posts
+            ]
+        }
+    )
+
+
+@app.post("/api/messages")
+def api_messages_post():
+    payload = request.get_json(silent=True) or {}
+
+    action = str(payload.get("action", "")).strip()
+    author = _clean_author(str(payload.get("author", "")))
+    message = _clean_message(str(payload.get("message", "")))
+
+    if not action:
+        return jsonify({"error": 'Campo obrigatório: action (use "post")'}), 400
+
+    if action != "post":
+        return jsonify({"error": 'action inválida (use "post")'}), 400
+
+    if not author or not message:
+        return jsonify({"error": "Campos obrigatórios: author, message"}), 400
+
+    if len(author) > 60:
+        return jsonify({"error": "author deve ter no máximo 60 caracteres"}), 400
+
+    if len(message) > 1000:
+        return jsonify({"error": "message deve ter no máximo 1000 caracteres"}), 400
+
+    created_at = _append_post(author, message)
+    return (
+        jsonify(
+            {
+                "ok": True,
+                "action": action,
+                "message": {"author": author, "message": message, "created_at": created_at},
+            }
+        ),
+        201,
+    )
 
 
 if __name__ == "__main__":
