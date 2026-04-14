@@ -180,10 +180,10 @@ def api_messages_post():
     message = _clean_message(str(payload.get("message", "")))
 
     if not action:
-        return jsonify({"error": 'Campo obrigatório: action (use "post")'}), 400
+        return jsonify({"error": 'Campo obrigatório: action (use "put")'}), 400
 
-    if action != "post":
-        return jsonify({"error": 'action inválida (use "post")'}), 400
+    if action != "put":
+        return jsonify({"error": 'action inválida (use "put")'}), 400
 
     if not author or not message:
         return jsonify({"error": "Campos obrigatórios: author, message"}), 400
