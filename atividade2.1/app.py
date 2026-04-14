@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-import csv
+import json
 import os
 from dataclasses import dataclass
 from datetime import datetime
-from pathlib import Path
 from typing import List
 
 from flask import Flask, jsonify, redirect, render_template, request
+from redis import Redis
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 
@@ -23,76 +23,75 @@ class Post:
     created_at: str
 
 
-def _tmp_data_dir() -> Path:
-    return Path("/tmp") / "atividade21_blog_data"
+_redis_client: Redis | None = None
 
 
-def _data_dir() -> Path:
-    """Onde gravar o CSV: local `data/`, override por env, ou /tmp em serverless."""
-    override = os.environ.get("DATA_DIR", "").strip()
-    if override:
-        return Path(override)
-    # Vercel expõe combinações diferentes conforme runtime/preview.
-    if (
-        os.environ.get("VERCEL")
-        or os.environ.get("VERCEL_ENV")
-        or os.environ.get("VERCEL_URL")
-    ):
-        return _tmp_data_dir()
+def _redis() -> Redis:
+    global _redis_client
 
-    local = Path(__file__).resolve().parent / "data"
+    if _redis_client is not None:
+        return _redis_client
+
+    url = os.environ.get("REDIS_URL", "").strip()
+    if not url:
+        raise RuntimeError(
+            "REDIS_URL não configurado. Configure uma instância Redis (ex.: Upstash) e defina a env var REDIS_URL."
+        )
+
+    _redis_client = Redis.from_url(url, decode_responses=True)
+    return _redis_client
+
+
+def _messages_key() -> str:
+    return os.environ.get("REDIS_MESSAGES_KEY", "atividade21:messages")
+
+
+def _messages_limit() -> int:
+    raw = os.environ.get("REDIS_MESSAGES_LIMIT", "").strip()
+    if not raw:
+        return 500
     try:
-        local.mkdir(parents=True, exist_ok=True)
-        probe = local / ".write_probe"
-        probe.write_text("ok", encoding="utf-8")
-        probe.unlink(missing_ok=True)
-    except OSError:
-        return _tmp_data_dir()
-    return local
-
-
-def _csv_path() -> Path:
-    return _data_dir() / "messages.csv"
-
-
-def _ensure_storage_exists() -> None:
-    data_dir = _data_dir()
-    data_dir.mkdir(parents=True, exist_ok=True)
-
-    csv_path = _csv_path()
-    if csv_path.exists():
-        return
-
-    with csv_path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["author", "message", "created_at"])
-        writer.writeheader()
+        value = int(raw)
+    except ValueError:
+        return 500
+    return max(1, min(value, 5000))
 
 
 def _read_posts() -> List[Post]:
-    _ensure_storage_exists()
     posts: List[Post] = []
 
-    with _csv_path().open("r", encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            author = (row.get("author") or "").strip()
-            message = row.get("message") or ""
-            created_at = (row.get("created_at") or "").strip()
-            if not (author and message and created_at):
-                continue
-            posts.append(Post(author=author, message=message, created_at=created_at))
+    items = _redis().lrange(_messages_key(), 0, -1)
+    for item in items:
+        try:
+            obj = json.loads(item)
+        except json.JSONDecodeError:
+            continue
 
-    posts.reverse()
+        author = str(obj.get("author", "")).strip()
+        message = str(obj.get("message", ""))
+        created_at = str(obj.get("created_at", "")).strip()
+        if not (author and message and created_at):
+            continue
+        posts.append(Post(author=author, message=message, created_at=created_at))
+
     return posts
 
 
 def _append_post(author: str, message: str) -> str:
-    _ensure_storage_exists()
     created_at = datetime.now().isoformat(timespec="seconds")
 
-    with _csv_path().open("a", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=["author", "message", "created_at"])
-        writer.writerow({"author": author, "message": message, "created_at": created_at})
+    value = json.dumps(
+        {"author": author, "message": message, "created_at": created_at},
+        ensure_ascii=False,
+        separators=(",", ":"),
+    )
+
+    r = _redis()
+    key = _messages_key()
+    pipe = r.pipeline(transaction=True)
+    pipe.lpush(key, value)
+    pipe.ltrim(key, 0, _messages_limit() - 1)
+    pipe.execute()
 
     return created_at
 
@@ -108,8 +107,18 @@ def _clean_message(value: str) -> str:
 
 @app.get("/")
 def index_get():
-    posts = _read_posts()
-    return render_template("index.html", posts=posts, error=None, form={"author": "", "message": ""})
+    try:
+        posts = _read_posts()
+        return render_template(
+            "index.html", posts=posts, error=None, form={"author": "", "message": ""}
+        )
+    except RuntimeError as e:
+        return render_template(
+            "index.html",
+            posts=[],
+            error=str(e),
+            form={"author": "", "message": ""},
+        )
 
 
 @app.post("/")
@@ -117,8 +126,20 @@ def index_post():
     author = _clean_author(request.form.get("author", ""))
     message = _clean_message(request.form.get("message", ""))
 
-    if not author or not message:
+    try:
         posts = _read_posts()
+    except RuntimeError as e:
+        return (
+            render_template(
+                "index.html",
+                posts=[],
+                error=str(e),
+                form={"author": author, "message": message},
+            ),
+            500,
+        )
+
+    if not author or not message:
         return (
             render_template(
                 "index.html",
@@ -130,7 +151,6 @@ def index_post():
         )
 
     if len(author) > 60:
-        posts = _read_posts()
         return (
             render_template(
                 "index.html",
@@ -142,7 +162,6 @@ def index_post():
         )
 
     if len(message) > 1000:
-        posts = _read_posts()
         return (
             render_template(
                 "index.html",
@@ -160,7 +179,10 @@ def index_post():
 
 @app.get("/api/messages")
 def api_messages_get():
-    posts = _read_posts()
+    try:
+        posts = _read_posts()
+    except RuntimeError as e:
+        return jsonify({"error": str(e)}), 500
     return jsonify(
         {
             "messages": [
@@ -194,7 +216,10 @@ def api_messages_post():
     if len(message) > 1000:
         return jsonify({"error": "message deve ter no máximo 1000 caracteres"}), 400
 
-    created_at = _append_post(author, message)
+    try:
+        created_at = _append_post(author, message)
+    except RuntimeError as e:
+        return jsonify({"error": str(e)}), 500
     return (
         jsonify(
             {
